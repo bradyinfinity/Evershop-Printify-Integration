@@ -1,0 +1,62 @@
+.printify-container {
+  background: linear-gradient(135deg, #0e031f, #281447);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.fetch-button {
+  background: linear-gradient(135deg, #6a85f1, #c572ef);
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background: #ed1e79;
+  }
+}
+
+.loading-spinner {
+  color: #f15a24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.error-message {
+  color: #fbb03b;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.product-list {
+  margin-top: 1.5rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+  .MuiPaginationItem-root {
+    color: #ffffff;
+
+    &.Mui-selected {
+      background-color: #29abe2;
+      color: #ffffff;
+    }
+
+    &:hover {
+      background-color: #f15a24;
+      color: #ffffff;
+    }
+  }
+}

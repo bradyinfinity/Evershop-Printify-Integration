@@ -1,0 +1,15 @@
+{
+  "name": "printify_integration",
+  "version": "0.0.1",
+  "description": "Printify Integration for EverShop",
+  "keywords": [
+    "Printify",
+    "EverShop"
+  ],
+  "author": "bradyinfinity",
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "dependencies": {
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6"
+  }
+}

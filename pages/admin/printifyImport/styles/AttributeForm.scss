@@ -1,0 +1,58 @@
+.attribute-form {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+
+  .group-create-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .attribute-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+
+    .attribute-option {
+      background: #f9f9f9;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+      p {
+        margin: 0.5rem 0;
+      }
+
+      .attribute-title {
+        color: black;
+        padding: 4px;
+        border-radius: 6px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 2px solid white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        width: fit-content;
+      }
+    }
+  }
+
+  .create-attribute-button {
+    margin-top: 20px;
+
+    .disabled {
+      background-color: #b0bec5;
+      color: #fff;
+      cursor: not-allowed;
+    }
+
+    .disabled-variant {
+      background-color: #1e88e5;
+      color: #fff;
+      cursor: not-allowed;
+    }
+  }
+}

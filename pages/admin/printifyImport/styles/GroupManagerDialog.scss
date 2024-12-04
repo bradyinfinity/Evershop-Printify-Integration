@@ -1,0 +1,52 @@
+.attribute-group-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.header-title {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.create-button {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #6a85f1, #c572ef);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background: #ed1e79;
+}
+
+.group-card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.group-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.MuiCardContent-root {
+  padding: 20px;
+  text-align: left;
+}
+
+.MuiDialogContent-root {
+  padding: 20px;
+}

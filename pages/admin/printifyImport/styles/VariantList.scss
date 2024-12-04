@@ -1,0 +1,60 @@
+.variant-list-container {
+  padding: 20px; // Add some padding around the container
+  box-sizing: border-box; // Ensure padding does not affect overall width
+  margin: 0 auto; // Center the container if necessary
+  width: 100%;
+
+  .shared-attributes {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px; // Add a border radius for a smoother look
+  
+    h4 {
+      margin-bottom: 10px;
+    }
+  
+    .form-group {
+      display: flex; // Use flexbox for layout
+      flex-direction: column; // Stack label and value vertically
+      width: 100%; // Ensure full width
+  
+      label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+        width: 100%; // Ensure label takes full width
+      }
+  
+      p {
+        margin: 0; // Remove default margin
+        padding: 10px; // Add some padding for spacing
+        background-color: #f0f0f0; // Optional: Light background for the value
+        border-radius: 4px; // Optional: Rounded corners
+        width: 100%; // Ensure value takes full width
+      }
+    }
+  }  
+  
+  .variant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 3 columns
+    gap: 20px; // Space between grid items
+
+    .variant-card {
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      border-radius: 4px;
+
+      h5 {
+        margin-bottom: 10px;
+      }
+
+      .form-group {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
